@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>net.nvsoftware</groupId>
-	<artifactId>iProductService</artifactId>
+	<artifactId>iOrderService</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>iProductService</name>
+	<name>iOrderService</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>11</java.version>

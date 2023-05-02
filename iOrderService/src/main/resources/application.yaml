@@ -1,17 +1,9 @@
-#server.port=8001
-#
-#spring.jpa.hibernate.ddl-auto=update
-#spring.datasource.url=jdbc:mysql://localhost:3306/productdb
-#spring.datasource.username=root
-#spring.datasource.password=getoffer
-#spring.jpa.properties.hibernate.dialect = org.hibernate.dialect.MySQL5InnoDBDialect
-
 server:
-  port: 8001
+  port: 8002
 
 spring:
   datasource:
-    url: jdbc:mysql://${DB_HOST:localhost}:3306/iproductdb
+    url: jdbc:mysql://${DB_HOST:localhost}:3306/iorderdb
     username: root
     password: getoffer
     driverClassName: com.mysql.cj.jdbc.Driver
@@ -20,7 +12,7 @@ spring:
     hibernate:
       ddl-auto: update
   application:
-    name: product_service
+    name: order_service
 
 eureka:
   instance:
