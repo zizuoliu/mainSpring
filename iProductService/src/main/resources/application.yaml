@@ -20,7 +20,7 @@ spring:
     hibernate:
       ddl-auto: update
   application:
-    name: product_service
+    name: PRODUCT-SERVICE
   config:
     import: configserver:http://localhost:8051
 
