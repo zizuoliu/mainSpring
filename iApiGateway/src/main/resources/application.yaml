@@ -5,7 +5,7 @@ spring:
   application:
     name: API-GATEWAY
   config:
-    import: configserver:http://localhost:8051
+    import: configserver:http://${CONFIG_SERVER_ADDRESS:localhost}:8051
   cloud:
     gateway:
       routes:
